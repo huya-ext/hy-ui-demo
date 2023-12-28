@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "hyext-builder-beyond"
+  ],
+  "extends": [
+    "plugin:hyext-builder-beyond/all"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  }
+}

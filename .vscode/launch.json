@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach To npm",
+      "request": "attach",
+      "type": "node",
+      "port": 5858,
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Lancer le programme",
+      "program": "${workspaceRoot}/node_modules/@hyext/cli/bin/hyext-start.js",
+      "autoAttachChildProcesses": false,
+    }
+  ]
+} 

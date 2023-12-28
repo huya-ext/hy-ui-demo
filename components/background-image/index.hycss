@@ -1,0 +1,13 @@
+.demo-backgroundImage {
+  height: 380px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.backgroundImage-content {
+  color: lightblue;
+  font-size: 30px;
+  text-align: center;
+}
